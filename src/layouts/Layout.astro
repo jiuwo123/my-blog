@@ -61,6 +61,16 @@ const isPostPage = stripLocaleFromPath(Astro.url.pathname).startsWith('/post/');
 
     <!-- 子页面可通过 slot="head" 注入额外的 head 内容（如 JSON-LD） -->
     <slot name="head" />
+  
+    <!-- Vercel 访问统计：需在 Vercel 项目后台 Analytics 面板启用 -->
+    <script is:inline defer src="/_vercel/insights/script.js"></script>
+    <script is:inline>
+      let vaFirstLoad = true;
+      document.addEventListener('astro:page-load', () => {
+        if (vaFirstLoad) { vaFirstLoad = false; return; }
+        if (typeof window.va === 'function') window.va('pageview');
+      });
+    </script>
   </head>
   <body>
     <AppShell articleTools={articleTools} post={post} siderType={siderType} isPostPage={isPostPage}>
