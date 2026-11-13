@@ -12,6 +12,7 @@ tags:
 categories:
   - 工具
 excludeFromSummary: true
+draft: true
 ---
 
 主题支持两种加密：在 frontmatter 里写 `password` 加密整篇文章，或者用 `:::encrypted` 只加密其中一段。这篇只讲后者。

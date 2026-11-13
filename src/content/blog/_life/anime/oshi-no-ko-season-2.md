@@ -3,6 +3,7 @@ title: 《我推的孩子》第二季观后感：一出舞台剧，拍了大半�
 link: oshi-no-ko-season-2
 catalog: true
 date: 2025-01-19 23:10:00
+draft: true
 description: 补完了《我推的孩子》第二季。大半季都在讲一部 2.5 次元舞台剧的排演，节奏慢，却是我最喜欢的一段。
 cover: /img/cover/7.webp
 tags:

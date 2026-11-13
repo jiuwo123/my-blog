@@ -12,6 +12,7 @@ categories:
   - 笔记
 math: true
 quiz: true
+draft: true
 ---
 
 最近帮朋友看一道概率题，发现自己对贝叶斯公式的印象只剩下「分母很长」。这里重新推一遍，顺便出几道题给自己练手。

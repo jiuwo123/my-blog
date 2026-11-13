@@ -11,7 +11,7 @@ tags:
   - Mermaid
   - 构建
 categories:
-  - [笔记, 前端]
+  - 备忘录
 colophon:
   - ai-lead
 ---

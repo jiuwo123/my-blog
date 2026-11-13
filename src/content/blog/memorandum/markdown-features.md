@@ -8,7 +8,7 @@ tags:
   - Markdown
   - 教程
 categories:
-  - 笔记
+  - 备忘录
 ---
 
 本文展示 astro-koharu 支持的所有 Markdown 增强功能。

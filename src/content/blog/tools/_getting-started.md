@@ -7,9 +7,11 @@ description: 欢迎使用 astro-koharu 博客主题！这是一个基于 Astro �
 tags:
   - 入门
   - Astro
+password: mine
 categories:
   - 工具
 sticky: true
+draft: true
 ---
 
 欢迎使用 astro-koharu 博客主题！
